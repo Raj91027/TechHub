@@ -1,0 +1,45 @@
+/* src/pages/Home.css */
+
+.home-container {
+    padding: 0px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('../assets/logos/bg1.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    height: 520px; /* Set height for the hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Documentation Cards */
+  .doc-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .doc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Resources Cards */
+  .resource-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  

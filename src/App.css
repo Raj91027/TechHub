@@ -1,38 +1,154 @@
+/* src/App.css */
+
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background: #3d6562f6;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.cta-section {
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3487e0;
   color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* src/App.css */
+
+.documentation-container {
+  padding: 20px;
+}
+
+.documentation-section h3 {
+  margin-top: 20px;
+}
+
+.documentation-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.documentation-section li {
+  margin: 5px 0;
+}
+
+.documentation-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.documentation-section a:hover {
+  text-decoration: underline;
+}
+/* src/App.css */
+
+/* src/pages/Roadmaps.css */
+
+.roadmaps-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background */
+}
+
+.roadmap-card {
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.roadmap-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+h2 {
+  color: #007bff; /* Header color */
+}
+
+/* src/App.css */
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+/* src/App.css */
+
+/* Light Theme */
+
+/* src/pages/About.css */
+
+/* src/pages/About.css */
+
+.about-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.about-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for sections */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.about-section h3 {
+  color: #007bff; /* Custom color for section titles */
+}
+
+.team-member {
+  margin: 10px 0;
+}
+
+.team-member h5 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Card styles */
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Icons */
+p {
+  font-size: 16px; /* Adjust font size for contact info */
+}
+
+a {
+  color: #007bff; /* Bootstrap link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for links */
 }
