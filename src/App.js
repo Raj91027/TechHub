@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">Tech Hub</a>
+          <Link className="navbar-brand" to="/">Tech Hub</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -47,7 +47,6 @@ function App() {
           </div>
         </nav>
         
-      <Home />
 
         {/* Wrap Route components inside Routes */}
         <Routes>
