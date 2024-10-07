@@ -47,7 +47,7 @@ function App() {
           </div>
         </nav>
         
-
+      <Home />
 
         {/* Wrap Route components inside Routes */}
         <Routes>
