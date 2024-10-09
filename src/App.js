@@ -50,7 +50,6 @@ function App() {
 
         {/* Wrap Route components inside Routes */}
         <Routes>
-          <Route path="/TechHub" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/documentation" element={<Documentation />} />
